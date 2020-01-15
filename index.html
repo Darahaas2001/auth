@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Login/SignUp</title>
+	<script src="https://aperture.firebaseapp.com/__/firebase/7.6.1/firebase-app.js"></script>
+	<script src="https://aparture.firebaseapp.com/__/firebase/7.6.1/firebase-auth.js"></script>
+	<script src="https://aparture.firebaseapp.com/__/firebase/7.6.1/firebase-storage.js"></script>
+	<script src="https://aparture.firebaseapp.com/__/firebase/7.6.1/firebase-database.js"></script>
+</head>
+
+<body>
+	<div id="login-div">
+		<h3>Login Or SignUp</h3>
+		<input id="emailId" type="email" placeholder="Email"><br>
+		<input id="passcode" type="password" placeholder="Password"><br>
+
+		<button id="login-btn" onclick="login()">Login</button>
+		<button id="register-btn" onclick="register()">Register</button>
+	</div>
+
+	<div id="logout-div">
+		<h3>Welcome</h3>
+		<p id="user-email"></p>
+		<button id="logout_btn" onclick="logout()">Logout</button>
+		<br>
+
+		<h3>Upload New</h3>
+		<progress value="0" max="100" id="uploader"></progress>
+		<p id="progress"></p>
+		<input type="file" value="Upload" id="file-btn">
+
+		<h3 id="gallery">Gallery</h3>
+		<div id="files"></div>
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

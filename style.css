@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+		body {
+			background: rgb(254, 255, 255);
+			padding: 0px;
+			margin: 0px;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 16px;
+		}
+
+		input,
+		button {
+			border-radius: 5px;
+			font-weight: 700;
+		}
+
+		#login-div,
+		#logout-div {
+			margin: 0px auto;
+			width: 20%;
+			padding: 20px;
+			margin-top: 150px;
+		}
+
+		#login-div input {
+			display: block;
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			padding: 15px;
+			outline: none !important;
+			width: 100%;
+			margin-bottom: 20px;
+			transition: 0.3s;
+		}
+
+		.login-div input:focus {
+			border: 1px solid #777;
+		}
+
+		#logout-div ul {
+			list-style: none;
+		}
+
+		#login-div button,
+		#logout-div button {
+			background: #5d8ffc;
+			color: #fff;
+			border: 1px solid #5d8ffc;
+			border-radius: 5px;
+			padding: 10px;
+			display: inline-block;
+			width: 80px;
+			transition: 0.3s;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			outline: none !important;
+
+		}
+
+		#logout-div li {
+			background: #5d8ffc;
+			color: rgb(10, 8, 8);
+			border: 1px solid #5d8ffc;
+			border-radius: 5px;
+			padding: 10px;
+			display: block;
+			overflow: hidden;
+			width: 100%;
+			transition: 0.3s;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			outline: none !important;
+		}
+
+		#login-div button:hover,
+		#logout-div button:hover,
+		#logout-div li:hover {
+			background: #fff;
+			color: #5d8ffc;
+			border: 1px solid #5d8ffc;
+			cursor: pointer;
+		}
+
+		#uploader {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 50%;
+			margin-bottom: 10px;
+		}
+
+		a {
+			text-decoration: none;
+			transition: 0.1s color;
+			color: rgb(12, 11, 11);
+		}
+
+		a:hover {
+			color: #5d8ffc;
+			cursor: pointer;
+		}
