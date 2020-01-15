@@ -43,9 +43,9 @@
 
 		#login-div button,
 		#logout-div button {
-			background: #5d8ffc;
+			background: #fa3651;
 			color: #fff;
-			border: 1px solid #5d8ffc;
+			border: 1px solid #fa3651;
 			border-radius: 5px;
 			padding: 10px;
 			display: inline-block;
@@ -58,9 +58,9 @@
 		}
 
 		#logout-div li {
-			background: #5d8ffc;
+			background: #fa3651;
 			color: rgb(10, 8, 8);
-			border: 1px solid #5d8ffc;
+			border: 1px solid #fa3651;
 			border-radius: 5px;
 			padding: 10px;
 			display: block;
@@ -76,8 +76,8 @@
 		#logout-div button:hover,
 		#logout-div li:hover {
 			background: #fff;
-			color: #5d8ffc;
-			border: 1px solid #5d8ffc;
+			color: #fa3651;
+			border: 1px solid #fa3651;
 			cursor: pointer;
 		}
 
@@ -95,6 +95,6 @@
 		}
 
 		a:hover {
-			color: #5d8ffc;
+			color: #fa3651;
 			cursor: pointer;
 		}
